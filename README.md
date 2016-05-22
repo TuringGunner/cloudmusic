@@ -1,3 +1,3 @@
 # cloudmusic
 
-## download my faverate music 
+## download my faverite music 
