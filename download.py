@@ -1,5 +1,6 @@
 import requests
 import urllib
+import shutil
 
 r = requests.get('http://music.163.com/api/playlist/detail?id=335280')
 
@@ -11,6 +12,7 @@ for i in range(music_number):
     name = arr[i]['name'] + '.mp3'
     link = arr[i]['mp3Url']
     urllib.urlretrieve(link, name)
-    print name + ' download complete.'
+    shutil.move('/home/d/github/cloudmusic/' + name, '/home/d/Music')
+    print name + ' Download Complete.'
 
-print 'all files download complete!'
+print 'All Files Download Complete!'
