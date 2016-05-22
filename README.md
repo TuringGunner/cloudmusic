@@ -1,5 +1,7 @@
-# cloudmusic
+# cloudmusic --ubuntu
 
 ## download my faverite music 
 
-## move the music files to ~/Music  --ubuntu
+### check whether files exist or not
+### download files
+### move the music files to ~/Music
